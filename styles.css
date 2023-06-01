@@ -223,6 +223,18 @@ ul {
   
   .items {
     margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+  }
+
+  .items img {
+    height: 100px;
+  }
+
+  .items h3{
+    text-align: center;
   }
 
   @media (min-width: 0px) and (max-width: 600px) {
