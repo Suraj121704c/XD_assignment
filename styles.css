@@ -221,6 +221,9 @@ ul {
     text-align: center;
   }
   
+  .items {
+    margin-top: 200px;
+  }
 
   @media (min-width: 0px) and (max-width: 600px) {
     .left{
