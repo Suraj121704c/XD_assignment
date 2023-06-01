@@ -198,6 +198,28 @@ ul {
   .wokers h1{
     text-align: center;
   }
+
+  .working { 
+    width: 85%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .beforeFotter {
+    margin-top: 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .beforeFotter h1{
+    text-align: center;
+  }
   
 
   @media (min-width: 0px) and (max-width: 600px) {
@@ -217,4 +239,17 @@ ul {
     .boxq4{
         margin-top: 20px;
     }
+    .working {
+        flex-wrap: wrap;
+    }
+
 }
+    @media (min-width: 600px) and (max-width: 1000px) {
+        .working {
+            flex-wrap: wrap;
+        }
+    }
+    
+
+
+       
