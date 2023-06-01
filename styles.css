@@ -272,13 +272,17 @@ ul {
     }
 
     .beforeFotter {
-        margin-top: 700px;
+        margin-top: 1000px;
     }
 
 }
     @media (min-width: 600px) and (max-width: 1000px) {
         .working {
             flex-wrap: wrap;
+        }
+
+        .beforeFotter {
+            margin-top: 600px;
         }
     }
     
