@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: Nunito Sans;
+}
+.nav{
+    margin-top: 10px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(10, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f4f4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(14, 13, 13);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .hero{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+  }
+  .hero h1{
+    font-weight: 900;
+    font-size: 35px;
+  }
+  .left{
+    margin-top: 150px;
+  }
+
+  .left p {
+    margin-top: 20px;
+  }
+
+  .left button {
+   margin-top: 30px;
+   width: 150px;
+   height: 50px;
+   border-radius: 20px;
+   background-color: #00DAFF;
+   color: #FFFFFF;
+   border: 1px solid #00DAFF;
+   margin-bottom: 20px;
+   font-size: 20px;
+  }
+
+  .box{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .box h1{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .box1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .box1 div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .boxji {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+
+  }
+
+  .boxji h1 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .box2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .box2 div{
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .boxq{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .boxq h1 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  @media (min-width: 0px) and (max-width: 600px) {
+    .left{
+        margin-top: 0;
+      }
+      .hero{
+        margin-bottom: 25px;
+      }
+}
