@@ -154,6 +154,10 @@ ul {
     margin-top: 150px;
   }
 
+  .boxqji{
+   display: inline-block;
+  }
+
   .boxq h1 {
     margin-bottom: 50px;
     text-align: center;
@@ -169,6 +173,27 @@ ul {
     margin-bottom: 20px;
     font-size: 20px;
   }
+
+  .boxq2{
+    margin-top: 200px;
+  }
+
+  .boxq3{
+    margin-top: 200px;
+  }
+
+  .boxq4{
+    margin-top: 200px;
+  }
+  
+
+  .wokers {
+    margin-top: 50px;
+  }
+
+  .wokers h1{
+    text-align: center;
+  }
   
 
   @media (min-width: 0px) and (max-width: 600px) {
@@ -178,4 +203,14 @@ ul {
       .hero{
         margin-bottom: 25px;
       }
+
+    .boxq2{
+        margin-top: 20px;
+    }
+    .boxq3{
+        margin-top: 20px;
+    }
+    .boxq4{
+        margin-top: 20px;
+    }
 }
